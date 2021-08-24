@@ -1,0 +1,42 @@
+{
+  "name": "project_1",
+  "version": "1.0.0",
+  "description": "creating architecture which has following features : Scalable, performance ready, plugin, monitoring, typescript support , Source mapping, bi-directional data flow (app -> plugin || plugin -> app), role management , permission (files, db, users, etc.), error handling, logging, lightweight, cross language compatible (python, c#, etc.), micro-services architecture compatible, SEO, Security, Cross frameworks (Backend as well as Frontend), email, easy to understand & maintain, uptime dynamic route configuration (without restart app), documentation ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --enable-source-maps dist/backend/src/index.js",
+    "dev": "nodemon --enable-source-maps dist/backend/src/index.js"
+  },
+  "author": "Saurabh",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "joi": "^17.4.2",
+    "koa": "^2.13.1",
+    "koa-ejs": "^4.3.0",
+    "koa-router": "^10.0.0",
+    "mongodb": "^4.1.0",
+    "mongoose": "^5.13.7",
+    "path-to-regexp": "^6.2.0",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/express": "^4.17.13",
+    "@types/jest": "^27.0.1",
+    "@types/joi": "^17.2.3",
+    "@types/koa": "^2.13.4",
+    "@types/koa-router": "^7.4.4",
+    "@types/mocha": "^9.0.0",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^16.6.2",
+    "@types/winston": "^2.4.4",
+    "eslint": "^7.32.0",
+    "jest": "^27.0.6",
+    "mocha": "^9.1.0",
+    "prettier": "^2.3.2",
+    "swagger-ui": "^3.52.0"
+  }
+}

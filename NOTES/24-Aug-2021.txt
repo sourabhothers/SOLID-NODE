@@ -1,0 +1,4 @@
+*------------------------------ GitHub -----------------------------*
+
+#1 : Creating .gitkeep files recursively in empty sub-folders in GitHub
+> find . -type d -empty -not -path "./.git/*" -exec touch {}/.gitkeep \;
